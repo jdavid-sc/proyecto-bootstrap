@@ -1,0 +1,212 @@
+.navbar {
+    padding: 2rem;
+    background-color: #999999;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn-info {
+    font-size: 1.1rem;
+    margin: 5px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+
+.hero {
+    background-color: beige;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3px;
+}
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #999592;
+
+}
+
+.hero-imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 20px;
+    
+}
+
+.sobre-mi {
+    height: 300px;
+    padding: 10px;
+}
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0px;
+    font-family:'Barlow Condensed', sans-serif;
+}
+.seccion-texto {
+    font-size: 1.2rem;
+}
+.texto-negro {
+    color: black;
+    font-family:'Barlow Condensed', sans-serif;
+    font-weight: 500;
+}
+.texto-blanco {
+    color: white;
+}
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #999592;
+    font-family:'Barlow Condensed', sans-serif;
+}
+
+.experiencia {
+    padding: 40px 40px 60px 40px;
+    
+}
+.experiencia i {
+    font-size: 2.5rem;
+    color: rgb(25, 62, 246);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.experiencia-titulo {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.experiencia .columna {
+    padding: 20px;
+    border: 1.5px solid #999592;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+.columna:hover  {
+    background-color: rgb(18, 17, 17);
+    color: wheat;
+}
+.experiencia i:hover {
+    color: white;
+}
+.badge {
+    font-weight: bold;
+    font-size: 20px;  
+}
+.proyectos-recientes {
+    padding: 40px;
+}
+.proyectos-recientes img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay p {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.overlay .iconos-contenedor {
+   display: flex;
+}
+.overlay i {
+    color: black;
+    font-size: 50px;
+    margin: 10px;
+}
+.tamaño {
+    min-width: 250px;
+    min-height: 220px;
+
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+.proyecto {
+    position: relative;
+}
+
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+.articulos {
+    min-height: 500px;
+    padding: 30px;
+}
+.articulos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+.articulos .card-header {
+    font-weight: bold;
+}
+
+.testimonios {
+    padding: 40px 40px 60px 40px;
+}
+.testimonios .carousel {
+    max-width: 800px;
+}
+.carousel-item {
+    height: 500px;
+}
+@media screen and (max-width: 767px ) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
+}
